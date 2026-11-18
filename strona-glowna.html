@@ -3,16 +3,31 @@
     <head>
         <meta charset="UTF-8">
         <title>strona-glowna</title>
+        <script>
+            console.log("Skrypt w <head> został załadowany.");
+        </script>
+        <style>
+            body { font-family: Arial; padding: 20px; }
+            section { margin-bottom: 30px; }
+            button { padding: 10px 20px; }
+        </style>
     </head>
     <body>
-        <h1>Tu bedzie opis ogolny o obrazowaniu</h1>
-        <p>to jest cokolwiek</p>
+        <section>
+            <h1>Tu bedzie opis ogolny o obrazowaniu</h1>
+            <p>to jest cokolwiek</p>
+        </section>
         <hr>
-        <p>To kiedyś będzie <a href="tomografia-komputerowa.html">strona</a> o tomografii komputerowej.</p>
-        <p>To kiedyś będzie <a href="usg.html">strona</a> o USG.</p>
-        <p>To kiedyś będzie <a href="mri.html">strona</a> o MRI.</p>
-        <p>To kiedyś będzie <a href="pet.html">strona</a> o PET-cie.</p>
-        <p>To kiedyś będzie <a href="x-ray.html">strona</a> o x-ray.</p>
-        <h2>Jest dobrze 4</h2>
+        <section>
+            <button onlick="alert('Wybrałaś/-eś opcję "ucz się"!')">Ucz się</button>
+        </section>
+        <section>
+            <p>To kiedyś będzie <a href="tomografia-komputerowa.html">strona</a> o tomografii komputerowej.</p>
+            <p>To kiedyś będzie <a href="usg.html">strona</a> o USG.</p>
+            <p>To kiedyś będzie <a href="mri.html">strona</a> o MRI.</p>
+            <p>To kiedyś będzie <a href="pet.html">strona</a> o PET-cie.</p>
+            <p>To kiedyś będzie <a href="x-ray.html">strona</a> o x-ray.</p>
+            <h2>Jest dobrze 4</h2>
+        </section>
     </body>
 </html>
