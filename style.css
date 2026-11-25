@@ -1,6 +1,6 @@
 /* USTAWIENIA CAŁEJ STRONY */
 body {
-  font-family: Arial;
+  font-family: Georgia;
   background-color: #f0f0f0;
 }
 
@@ -19,7 +19,6 @@ header {
     padding: 15px 30px;
 }
 
-/**/
 
 h1 {
     margin: 0;
@@ -27,16 +26,21 @@ h1 {
 
 /*NAWIGACJA*/
 
-nav {
+.main-nav {
     display: flex;
     gap: 25px;
 }
 
-/*LINKI*
+.second-nav {
+  color: black;
+}
+
+/*LINKI*/
 
 a {
     text-decoration: none;
     color: black;
+    padding: 10px 20px; 
 }
 
 /* SEKCJA */
