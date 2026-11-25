@@ -7,28 +7,34 @@ body {
 /* NAGŁÓWEK */
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background-color: lightblue;
-  color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    background-color: white;
+    padding: 15px 30px;
 }
 
-/* NAWIGACJA */
+h1 {
+    margin: 0;
+}
+
+/*NAWIGACJA*/
 
 nav {
-  display: flex;
-  gap: 25px;
+    display: flex;
+    gap: 25px;
 }
 
-/* LINKI */
+/*LINKI*
 
 a {
-  font-weight: bold;
-  color: black;
+    text-decoration: none;
+    color: black;
 }
 
 /**/
