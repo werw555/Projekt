@@ -28,6 +28,14 @@ nav {
   padding: 20px;
 }
 
+/* LINKI */
+
+a {
+  padding: 12px 24px;
+  font-weight: bold;
+  color: black;
+}
+
 /* SEKCJA */
 section { 
   margin-bottom: 30px;
