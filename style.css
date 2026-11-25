@@ -22,7 +22,6 @@ h1 {
 /* NAWIGACJA */
 
 nav {
-  background-color: white;
   color: black;
   padding: 20px;
 }
@@ -30,7 +29,6 @@ nav {
 /* LINKI */
 
 a {
-  padding: 12px 24px;
   font-weight: bold;
   color: black;
   text-align: right;
